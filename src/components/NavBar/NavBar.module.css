@@ -1,0 +1,36 @@
+.NavBar {
+    background: #181818;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavBar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar nav ul li {
+    display: inline-block;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.NavBar nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.NavBar a:hover {
+    border-bottom: 2px solid white;
+}
+.NavBar .Pic {
+    height: 40px;  
+    padding-top: 2px;
+   
+}
+

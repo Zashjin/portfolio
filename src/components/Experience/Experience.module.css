@@ -1,0 +1,50 @@
+.Experience {
+    display: flex;
+    background:black;
+    height: 900px;
+    padding-bottom: 5%; 
+    flex-direction: column;
+}
+
+.Experience p {
+    padding-left: 5%;
+    width: 90%;
+    padding-right: 5%;
+    font-size: 20px;
+    padding-bottom: 3%;
+}
+
+.Experience .List ul {
+    display:flex;
+    list-style-type: none;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Experience .Container {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: row;
+}
+
+.Experience .Container .List {
+    flex-basis: 100%;
+    background-color: black;
+    box-shadow: 0 0 4px 4px white;
+    border-radius: 9px;
+    margin-bottom: 3px; 
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+.Experience .Skills .List ul li{
+    margin: 0%;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+ul li {
+    align-self: center;
+}

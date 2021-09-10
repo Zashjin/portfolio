@@ -1,0 +1,40 @@
+.AboutMe {
+    background: black;
+    height: 900px;
+}
+.AboutMe .Container .Photo .Me {
+    height: 500px;
+    border-radius:8%;
+}
+.AboutMe .Container {
+    display: flex;
+    padding-top: 5%;
+}
+
+.AboutMe .Container .Text {
+    width: 47%;
+    margin-left: 3%;
+    padding-top: 2%;
+}
+
+.AboutMe .Container .Text h2 {
+    font-weight: 900;
+    font-size: 46px;
+    padding-bottom: 5%;
+    padding-left: 33%
+}
+
+.AboutMe .Container .Text p {
+    font-weight: 900;
+    font-size: 26px;
+    padding-bottom: 5%;
+    padding-left: 6%;
+}
+
+.AboutMe .Container .Photo {
+    height: 800px;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-bottom: 2%;
+}
