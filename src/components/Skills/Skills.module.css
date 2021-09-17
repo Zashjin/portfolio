@@ -1,7 +1,7 @@
 .Skills {
     padding-top: 3rem;
     background:black;
-    height: 950px;
+    height: 120vh;
     padding-bottom: 5%;   
 }
 .Skills .Container {
@@ -9,6 +9,7 @@
     margin-left: 10%;
     margin-right: 10%;
     flex-direction: column;
+    margin-bottom: 5%;
 }
 .Skills .List ul {
     list-style-type: none;
