@@ -1,7 +1,11 @@
 import classes from './Skills.module.css'
 import Header from './../Header/Header'
 
-const listTitleStyle = { fontWeight: 900, color: '#045805', fontSize: '30px'}
+const listTitleStyle = { 
+    fontWeight: 900, 
+    color: '#045805', 
+    fontSize: '30px',
+}
 const HrStyle = { 
     margin: '1px 0 10px 0',
 	height: '2px',
@@ -15,7 +19,7 @@ const HrStyle = {
 const LiHrStyle = { 
     alignSelf: 'center',
     margin: '1px 0  10px 0',
-	height: '2px',
+    border: '1px solid #S056506',
     width: '50%'
 }
 

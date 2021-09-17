@@ -8,12 +8,12 @@ const Contact = () => {
     return ( 
         <div className={classes.Contact} id="contactme">
             <div className={classes.ContactIcons}>
-            <img className={classes.Pic} src={bit} alt='bitmoji'onClick={handleURL('mailto:brandongamblethompson@gmail.com')}></img>
-            <FaGithub color='black' size='30px' style={{padding: '1%'}}
+            <img className={classes.Pic}  style={{padding: '1%'}} src={bit} alt='bitmoji'onClick={handleURL('mailto:brandongamblethompson@gmail.com')}></img>
+            <FaGithub color='black' size='30px' style={{padding: '1%', marginTop:'10px'}}
             onClick={handleURL('https://github.com/Zashjin')} />
-            <FaLinkedinIn color='black' size='30px' style={{padding: '1%'}}
+            <FaLinkedinIn color='black' size='30px' style={{padding: '1%', marginTop:'10px'}}
             onClick={handleURL('https://www.linkedin.com/in/brandon-gamble-thompson/')} />
-            <FaInstagram color='black' size='30px' style={{padding: '1%'}}
+            <FaInstagram color='black' size='30px' style={{padding: '1%', marginTop:'10px'}}
             onClick={handleURL('https://www.instagram.com/brandon__gamble')} />
             </div>
         </div>

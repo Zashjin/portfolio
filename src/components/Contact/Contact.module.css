@@ -9,6 +9,32 @@
     display: flex;
     justify-content: center;
 }
+.Contact .ContactIcons svg {
+    padding-top: 10px;
+}
+.Contact .ContactIcons svg path {
+    cursor: pointer;
+    padding-top: 10px;
+
+}
+
+.Contact .ContactIcons .Pic {
+height: 90px;
+cursor: pointer;
+}
+
+@media (min-width: 800px) {
+.Contact {
+    background: #85FFBD;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.Contact .ContactIcons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .Contact .ContactIcons svg path {
     cursor: pointer;
@@ -16,7 +42,9 @@
 
 .Contact .ContactIcons .Pic {
 height: 90px;
-padding-top: 7px;
+
+
 padding-right: 10px;
 cursor: pointer;
+}
 }

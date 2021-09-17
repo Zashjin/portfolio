@@ -1,4 +1,53 @@
 .Skills {
+    padding-top: 3rem;
+    background:black;
+    height: 950px;
+    padding-bottom: 5%;   
+}
+.Skills .Container {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-direction: column;
+}
+.Skills .List ul {
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;   
+}
+.Skills h1 {
+    font-size: 2.5rem;
+}
+.Skills p {
+    font-size: 1.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Skills .Container .List hr {
+    margin-block-start: 20%;
+    margin: 1px 3px 10px 5px;
+	height: 2px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #045805));
+}
+.Skills .Container .List {
+    flex-basis: 100%;
+    background-color: black;
+    box-shadow: 0 0 4px 4px white;
+    border-radius: 9px;
+    margin-bottom: 15px; 
+    margin-left: 10px;
+    margin-right:10px;
+
+}
+
+
+
+
+
+@media (min-width: 800px) {
+    .Skills {
     background:black;
     height: 900px;
     padding-bottom: 5%;
@@ -54,4 +103,4 @@
 }
 
 
-
+}

@@ -2,15 +2,13 @@ import classes from './Experience.module.css'
 import Header from './../Header/Header'
 
 const listTitleStyle = {
-     fontWeight: 900, color: '#045805', fontSize: '30px'
+     fontWeight: 900, color: '#045805', fontSize: '1.5rem'
 } 
 
-const Ul = { 
-    flexDirection:'row'
-} 
+
 
 const Company = { 
-    fontSize:'22px'
+    fontSize:'1.5rem'
 }
 
 const LiHrStyle = { 
@@ -18,8 +16,8 @@ const LiHrStyle = {
     margin: '1px 0  10px 0',
 	height: '2px',
     width: '80%',
-    margin: '1px 3px 10px 5px',
-	height: '2px',
+   // margin: '1px 3px 10px 5px',
+	//height: '2px',
     border: 'none',
     background: '-webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #045805))',
 }
@@ -33,7 +31,7 @@ const CompanyHr = {
 
 const Devops =
 <div>
-    <div style={Ul}>
+    <div>
         <ul>
             <li style={ listTitleStyle }>
                 DevOps Staff (Front-End)
