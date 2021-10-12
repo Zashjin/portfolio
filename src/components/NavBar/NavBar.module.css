@@ -3,7 +3,7 @@
     height: 5rem;
     width: 100%;
     position: fixed;
-    opacity:.9;
+    opacity:999;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@
     width: 100%;
     position: fixed;
     z-index: 999;
-    opacity: 0.9;
+    opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;

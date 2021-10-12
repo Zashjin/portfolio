@@ -1,78 +1,8 @@
 import classes from './Skills.module.css'
 import Header from './../Header/Header'
-
-const listTitleStyle = { 
-    fontWeight: 900, 
-    color: '#045805', 
-    fontSize: '30px',
-}
-const HrStyle = { 
-    margin: '1px 0 10px 0',
-	height: '2px',
-    border: '1px solid #S056506',
-    borderRadius: '3px',
-    overflow:'hidden',
-    boxShadow:'0 0 10px #2b9e19',
-    background: '#045805' 
-}
-
-const LiHrStyle = { 
-    alignSelf: 'center',
-    margin: '1px 0  10px 0',
-    border: '1px solid #S056506',
-    width: '50%'
-}
-
-
-const FrontendSkills =
-<ul>
-    <li style={ listTitleStyle }>Front End</li>
-    <hr style={LiHrStyle}/>
-    <li>JavaScript ES6 </li>
-    <hr style={HrStyle} width= '95%' float='left'></hr>
-    <li>ReactJS</li>
-    <hr style={HrStyle} width= '85%' float='left'/>
-    <li>React Hooks</li>
-    <hr style={HrStyle} width= '85%' float='left'/>
-    <li>HTML5</li>
-    <hr style={HrStyle} width= '75%' float='left'/>
-    <li>CSS3</li>
-    <hr style={HrStyle} width= '85%' float='left'/>
-</ul>
-
-const otherSkills =
-<ul>
-    <li style={ listTitleStyle }>Other Skills</li>
-    <hr style={LiHrStyle}/>
-   <li>Restful API's</li>
-    <hr style={HrStyle} width= '70%' float='left' />
-    <li>Unit Testing</li>
-    <hr style={HrStyle} width= '75%' float='left'/>
-    <li>Pair Programming</li>
-    <hr style={HrStyle} width= '90%' float='left'/>
-    <li>Data Structures</li>
-    <hr style={HrStyle} width= '80%' float='left'/>
-    <li>Test-Driven Development</li>
-    <hr style={HrStyle} width= '85%' float='left'/>
-</ul>
-
-const tools = 
-<ul>
-    <li style={ listTitleStyle }>Tools</li>
-    <hr style={LiHrStyle}/>
-    <li>Mocha & Chai</li>
-    <hr style={HrStyle} width= '90%' float='left'/>
-    <li>Git</li>
-    <hr style={HrStyle} width= '85%' float='left'/>
-    <li>Github</li>
-    <hr style={HrStyle} width= '90%' float='left'/>
-    <li>Heroku</li>
-    <hr style={HrStyle} width= '70%' float='left'/>
-    <li>Vercel</li>
-    <hr style={HrStyle} width= '70%' float='left'/>
-</ul>
-
-const totalSkills =[FrontendSkills, otherSkills, tools]
+import { FaReact, FaHtml5, FaGitAlt, FaNodeJs, FaYarn, FaNpm  } from 'react-icons/fa';
+import { DiCss3, DiJavascript1, DiHeroku, DiVisualstudio} from "react-icons/di";
+import { SiTypescript, SiChai, SiMocha, SiJirasoftware, SiVercel } from "react-icons/si";
 
 
 
@@ -80,17 +10,89 @@ const Skills = () => {
     return ( 
         <div className={classes.Skills} id='skills'>
              <Header title={'My Skills'} />
-             <p>
+             <h4>
                  Below are some programming languages, toolkits, frameworks, and libraries that I have worked with and like working with. 
-             </p>
+             </h4>
              <div className={classes.Container}>
-                 {totalSkills.map(skills => {
-                     return (
-                         <div className={classes.List}>
-                                {skills}
+                    return (
+                        <div className={classes.List}>
+                            <h1>Languages</h1>
+                            <div className={classes.Icons}>
+                                <div>         
+                                    <DiJavascript1  title='JavaScript' color='yellow' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>JavaScript</p>
+                                </div>
+                                <div>
+                                    <FaHtml5  title='HTML 5'  color='red' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>HTML 5</p>
+                                </div>
+                                <div>
+                                    <DiCss3  title='CSS 3'  color='#0066b2' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>CSS 3</p>
+                                </div>
+                                <div>
+                                    <FaReact  title='React'  color='#00FFFF' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>React</p>
+                                </div>
+                                <div>
+                                    <SiTypescript  title='TypeScript'  color='#0066b2' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>TypeScript</p>
+                                </div>
+                         
                          </div>
+                         </div>
+                         <div className={classes.List}>
+                            <h1>Frameworks & Libraries</h1>
+                            <div className={classes.Icons}>
+                                <div>
+                                    <FaNodeJs  title='Node.js'  color='#03C03C' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>Node.js</p>
+                                </div>
+                                <div>
+                                    <FaGitAlt  title='Git' color='#FF3800' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>Git</p>
+                                </div>
+                                <div>
+                                    <SiMocha  title='Mocha' color='#80461B' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>Mocha</p>
+                                </div>
+                                <div>
+                                    <SiChai  title='Chai' color='red' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>Chai</p>
+                                </div>
+                            </div>
+                        </div>
+                         <div className={classes.List}>
+                            <h1>Technologies</h1>
+                            <div className={classes.Icons}>
+                                <div>
+                                    <DiHeroku title='Heroku' color='purple' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>Heroku</p>
+                                </div>
+                                <div>
+                                    <SiVercel title='Vercel' color='white' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>Vercel</p>
+                                </div>
+                                <div>
+                                    <DiVisualstudio title='Visual Studios' color='purple' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                     <p>Visual Studio</p>
+                                </div>
+                                <div>
+                                    <SiJirasoftware title='JIRA' color='#0066b2' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>Jira</p>
+                                </div>
+                                <div>
+                                    <FaNpm title='NPM' color='red' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>NPM</p>
+                                </div>
+                                <div>
+                                    <FaYarn title='Yarn' color='cyan' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <p>Yarn</p>
+                                </div>
+
+                            </div>
+                        </div>
                      )
-                 })}
              </div>
         </div>
      );
