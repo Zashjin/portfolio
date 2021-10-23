@@ -19,23 +19,23 @@ const Skills = () => {
                             <h1>Languages</h1>
                             <div className={classes.Icons}>
                                 <div>         
-                                    <DiJavascript1  title='JavaScript' color='yellow' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <DiJavascript1  title='JavaScript' color='yellow' size='40px' style={{padding: '1%'}}/>
                                     <p>JavaScript</p>
                                 </div>
                                 <div>
-                                    <FaHtml5  title='HTML 5'  color='red' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <FaHtml5  title='HTML 5'  color='red' size='40px' style={{padding: '1%'}}/>
                                     <p>HTML 5</p>
                                 </div>
                                 <div>
-                                    <DiCss3  title='CSS 3'  color='#0066b2' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <DiCss3  title='CSS 3'  color='#0066b2' size='40px' style={{padding: '1%'}}/>
                                     <p>CSS 3</p>
                                 </div>
                                 <div>
-                                    <FaReact  title='React'  color='#00FFFF' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <FaReact  title='React'  color='#00FFFF' size='40px' style={{padding: '1%'}}/>
                                     <p>React</p>
                                 </div>
                                 <div>
-                                    <SiTypescript  title='TypeScript'  color='#0066b2' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
+                                    <SiTypescript  title='TypeScript'  color='#0066b2' size='40px' style={{padding: '1%'}}/>
                                     <p>TypeScript</p>
                                 </div>
                          

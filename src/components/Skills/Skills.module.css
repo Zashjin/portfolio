@@ -1,7 +1,7 @@
 .Skills {
     padding-top: 3rem;
     background:black;
-    height: 135vh;
+    height: 90vh;
     padding-bottom: 5%;   
 }
 .Skills .Container {
@@ -10,6 +10,9 @@
     margin-right: 10%;
     flex-direction: column;
     margin-bottom: 5%;
+}
+.Skills .Container h4{
+    text-align: center;
 }
 .Skills .List {
     display: flex;
@@ -59,9 +62,8 @@
 
 }
 .Skills .List .Icons div {
-    align-content: center;
+    text-align: center;
     width: 3rem;
-    flex-direction:r ;
 }
 
 
@@ -130,10 +132,12 @@
 }
 
 .Skills .List .Icons div {
-    align-content: center;
-    width: 3rem;
-    flex-direction:r ;
+    align-content: left;
+    margin-bottom: 1rem;
+     width:2.5rem
 }
 
-
+.Skills .List .Icons div p {
+    text-align: center;
+}
 }
