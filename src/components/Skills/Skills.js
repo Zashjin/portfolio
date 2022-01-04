@@ -14,7 +14,6 @@ const Skills = () => {
                  Below are some programming languages, toolkits, frameworks, and libraries that I have worked with and like working with. 
              </h4>
              <div className={classes.Container}>
-                    return (
                         <div className={classes.List}>
                             <h1>Languages</h1>
                             <div className={classes.Icons}>
@@ -89,10 +88,8 @@ const Skills = () => {
                                     <FaYarn title='Yarn' color='cyan' size='40px' style={{padding: '1%', marginTop:'10px'}}/>
                                     <p>Yarn</p>
                                 </div>
-
                             </div>
                         </div>
-                     )
              </div>
         </div>
      );
