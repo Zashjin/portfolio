@@ -1,117 +1,109 @@
 .Experience {
-    padding-top: 3rem;
-    display: flex;
-    background:black;
-    height: 100vh;
-    padding-bottom: 5%; 
-    flex-direction: column;
+  padding-top: 3rem;
+  display: flex;
+  background: black;
+  height: 100vh;
+  padding-bottom: 5%;
+  flex-direction: column;
 }
 .Experience p {
-    padding-left: 5%;
-    width: 90%;
-    padding-right: 5%;
-    font-size: 1rem;
-  
+  padding-left: 5%;
+  width: 90%;
+  padding-right: 5%;
+  font-size: 1rem;
 }
 .Experience h1 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 .Experience h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
-
 .Experience .List ul {
-    display:flex;
-    list-style-type: none;
-    padding-left: 5%;
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  list-style-type: none;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
 }
 
 .Experience .Container {
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    flex-direction: column;
-    padding-bottom: 10%;
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-direction: column;
+  padding-bottom: 10%;
 }
 
 .Experience .Container .List {
-    flex-basis: 100%;
-    background-color: black;
-    box-shadow: 0 0 4px 4px white;
-    border-radius: 9px;
-    margin-bottom: 1rem;
-    margin-left: 10px;
-    margin-right:10px;
+  flex-basis: 100%;
+  background-color: black;
+  box-shadow: 0 0 4px 4px white;
+  border-radius: 9px;
+  margin-bottom: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-.Experience .Skills .List ul li{
-    margin: 0%;
-    font-size: 1rem;
-    flex-direction: row;
+.Experience .Skills .List ul li {
+  margin: 0%;
+  font-size: 1rem;
+  flex-direction: row;
 }
 
 ul li {
-    align-self: center;
+  align-self: center;
 }
-
-
-
-
-
-
 
 @media (min-width: 800px) {
-.Experience {
+  .Experience {
     display: flex;
-    background:black;
+    background: black;
     height: 900px;
-    padding-bottom: 5%; 
+    padding-bottom: 5%;
     flex-direction: column;
-}
+  }
 
-.Experience p {
+  .Experience p {
     padding-left: 5%;
     width: 90%;
     padding-right: 5%;
     font-size: 20px;
     padding-bottom: 3%;
-}
+  }
 
-.Experience .List ul {
-    display:flex;
+  .Experience .List ul {
+    display: flex;
     list-style-type: none;
     padding-left: 5%;
     display: flex;
     flex-direction: column;
-}
+  }
 
-.Experience .Container {
+  .Experience .Container {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
     flex-direction: row;
-}
+  }
 
-.Experience .Container .List {
+  .Experience .Container .List {
     flex-basis: 100%;
     background-color: black;
     box-shadow: 0 0 4px 4px white;
     border-radius: 9px;
-    margin-bottom: 3px; 
+    margin-bottom: 3px;
     margin-left: 10px;
-    margin-right:10px;
-}
+    margin-right: 10px;
+  }
 
-.Experience .Skills .List ul li{
+  .Experience .Skills .List ul li {
     margin: 0%;
     font-size: 20px;
     flex-direction: row;
-}
+  }
 
-ul li {
+  ul li {
     align-self: center;
-}
+  }
 }

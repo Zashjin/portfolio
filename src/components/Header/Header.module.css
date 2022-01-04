@@ -1,23 +1,29 @@
 .Container {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 2%;
-    padding-top: 4%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2%;
+  padding-top: 4%;
 }
 
 .Container hr {
-    position: absolute;
-    left: 0px;
-    margin: 30px 0;
-	height: 3px;
-    width: 25%;
-    border: none;
-    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #045805));
+  position: absolute;
+  left: 0px;
+  margin: 30px 0;
+  height: 3px;
+  width: 25%;
+  border: none;
+  background: -webkit-gradient(
+    linear,
+    0 0,
+    100% 0,
+    from(transparent),
+    to(transparent),
+    color-stop(50%, #045805)
+  );
 }
 
-
 .Container {
-    color:white
+  color: white;
 }
