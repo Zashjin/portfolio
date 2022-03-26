@@ -19,7 +19,7 @@ const LiHrStyle = {
   width: "80%",
   border: "none",
   background:
-    "-webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #045805))",
+    "-webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, #85ffbd))",
 };
 
 const CompanyHr = {
