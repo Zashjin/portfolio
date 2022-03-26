@@ -41,7 +41,7 @@ const Skills = () => {
                 size="40px"
                 style={{ padding: "1%" }}
               />
-              <p>JavaScript</p>
+              <p>Java Script</p>
             </div>
             <div>
               <FaHtml5
@@ -77,7 +77,7 @@ const Skills = () => {
                 size="40px"
                 style={{ padding: "1%" }}
               />
-              <p>TypeScript</p>
+              <p>Type Script</p>
             </div>
           </div>
         </div>

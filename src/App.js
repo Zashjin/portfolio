@@ -4,6 +4,7 @@ import Experience from './components/Experience/Experience'
 import Home from './components/Home/Home'
 import NavBar from './components/NavBar/NavBar'
 import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects'
 import './App.css';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
       <About />
       <Skills />
       <Experience />
+      <Projects />
       <Contact />
     </div>
   

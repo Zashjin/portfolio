@@ -1,13 +1,14 @@
 .NavBar {
   background: #212121;
-  height: 5rem;
-  width: 100%;
+  height: 4rem;
+  width: 96%;
   position: fixed;
   opacity: 999;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 999;
+  margin-top: -1rem;
 }
 
 .NavBar .Pic {
@@ -21,7 +22,7 @@
 .NavBar nav ul li {
   display: inline-block;
   margin-right: 8px;
-  font-size: 1.12rem;
+  font-size: .9rem;
 }
 .NavBar nav ul li a {
   text-decoration: none;

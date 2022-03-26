@@ -21,6 +21,9 @@ const NavBar = () => {
             <a href="/#experience">Experience</a>
           </li>
           <li>
+            <a href="/#projects">Projects</a>
+          </li>
+          <li>
             <a href="/#contactme">Contact</a>
           </li>
         </ul>

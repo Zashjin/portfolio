@@ -9,29 +9,31 @@
   margin-left: 10%;
   margin-right: 10%;
   flex-direction: column;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
-.Skills .Container h4 {
+.Skills h4 {
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .Skills .List {
   display: flex;
   flex-direction: column;
 }
 .Skills .List h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .Skills .List .Icons {
   display: flex;
   justify-content: space-around;
 }
 .Skills .List .Icons svg {
-  size: 1rem;
+  size: .8rem;
 }
 .Skills .List .Icons p {
   font-size: 0.75rem;
-  padding: 0;
-  margin: 0;
+  padding: .3rem;
+  margin-right: .3rem;
 }
 
 .Skills h1 {
@@ -41,8 +43,8 @@
 }
 .Skills p {
   font-size: 1.5rem;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 .Skills .Container .List hr {
   margin-block-start: 20%;
@@ -63,9 +65,9 @@
   background-color: #525252;
   box-shadow: 0 0 4px 4px white;
   border-radius: 9px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 .Skills .List .Icons div {
   text-align: center;
