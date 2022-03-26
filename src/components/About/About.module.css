@@ -1,6 +1,6 @@
 .AboutMe {
-  padding-top: 3rem;
-  background: black;
+  padding-top: rem;
+  background: #313131;
 }
 .AboutMe .Container .Photo .Me {
   width: 100%;
@@ -30,7 +30,7 @@
 
 @media (min-width: 800px) {
   .AboutMe {
-    background: black;
+    background: #313131;
     height: 900px;
   }
   .AboutMe .Container .Photo .Me {

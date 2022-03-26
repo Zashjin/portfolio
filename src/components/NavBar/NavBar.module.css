@@ -1,5 +1,5 @@
 .NavBar {
-  background: black;
+  background: #212121;
   height: 5rem;
   width: 100%;
   position: fixed;
@@ -32,15 +32,16 @@
 }
 @media (min-width: 800px) {
   .NavBar {
-    background: black;
-    height: 80px;
-    width: 100%;
+    background: #212121;
+    height: 70px;
+    width: 99.2%;
     position: fixed;
     z-index: 999;
     opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -1rem;
   }
   .NavBar nav ul {
     list-style: none;

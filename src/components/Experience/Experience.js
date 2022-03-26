@@ -3,7 +3,7 @@ import Header from "./../Header/Header";
 
 const listTitleStyle = {
   fontWeight: 900,
-  color: "#045805",
+  color: "#85ffbd",
   fontSize: "1.5rem",
 };
 
@@ -12,6 +12,7 @@ const Company = {
 };
 
 const LiHrStyle = {
+  color: "#85ffbd",
   alignSelf: "center",
   margin: "1px 0  10px 0",
   height: "2px",
@@ -22,6 +23,7 @@ const LiHrStyle = {
 };
 
 const CompanyHr = {
+  color: "#85ffbd",
   paddingLeft: "20%",
   paddingRight: "20%",
   margin: "0px",
@@ -43,14 +45,17 @@ const Devops = (
       </ul>
       <ul>
         <li>Springville, Utah</li>
-        <li>August 2021 - Present</li>
+        <li>August 2021 - March, 2022</li>
       </ul>
     </div>
     <p>
-        Aided in developing a new away feature for users.
+    Fixed Bugs, worked with a remote team of international developers, and aided in developing features for a site used by more than 20,000 Gamers.
     </p>
     <p>
-      Added filter for Division Leaders to view the activity of their members.
+        Aided in developing an away feature, and a Profile page for users.
+    </p>
+    <p>
+      Added filters for Division Leaders to view the activity of their members.
     </p>
   </div>
 );
@@ -69,11 +74,14 @@ const Thinkful = (
     </ul>
     <ul>
       <li>Orem, Utah</li>
-      <li>March, 2021 – September 2021</li>
+      <li>March, 2021 –  January, 2022</li>
     </ul>
     <p>
       Learned software development standards with an emphasis on HTML5,
       JavaScript, React, CSS3.
+    </p>
+    <p>
+    Full stack bootcamp. Teaches Node.js, Express and Postgresql.
     </p>
     <p>Created and deployed mobile-first applications</p>
     <p>Spent several hours a week with a Senior Web Developer.</p>

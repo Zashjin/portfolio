@@ -1,6 +1,6 @@
 .Skills {
-  padding-top: 3rem;
-  background: black;
+  padding-top: 1rem;
+  background: #313131;
   height: 90vh;
   padding-bottom: 5%;
 }
@@ -60,10 +60,10 @@
 }
 .Skills .Container .List {
   flex-basis: 100%;
-  background-color: black;
+  background-color: #525252;
   box-shadow: 0 0 4px 4px white;
   border-radius: 9px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -74,20 +74,22 @@
 
 @media (min-width: 800px) {
   .Skills {
-    background: black;
-    height: 1200px;
-    padding-bottom: 5%;
+    background: #313131;
+    height: 1000px;
+    padding-bottom: 3%;
   }
   .Skills h4 {
     padding-left: 26%;
     width: 48%;
     padding-right: 26%;
     font-size: 30px;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
+    margin-top: 0rem;
   }
 
   .Skills p {
     font-size: 1rem;
+    margin: 0rem;
   }
 
   .Skills .List ul {
@@ -106,7 +108,7 @@
   .Skills .Container .List {
     align-self: center;
     flex-basis: 100%;
-    background-color: black;
+    background-color: #525252;
     box-shadow: 0 0 4px 4px white;
     border-radius: 9px;
     margin-bottom: 3rem;
@@ -123,7 +125,7 @@
 
   .Skills .Container .List hr {
     margin-block-start: 20%;
-    margin: 1px 3px 10px 5px;
+    margin: 0px 3px 10px 5px;
     height: 2px;
     border: none;
     background: -webkit-gradient(

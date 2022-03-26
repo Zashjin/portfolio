@@ -1,7 +1,7 @@
 .Experience {
-  padding-top: 3rem;
+  padding-top: 1rem;
   display: flex;
-  background: black;
+  background: #313131;
   height: 100vh;
   padding-bottom: 5%;
   flex-direction: column;
@@ -37,7 +37,7 @@
 
 .Experience .Container .List {
   flex-basis: 100%;
-  background-color: black;
+  background-color: #525252;
   box-shadow: 0 0 4px 4px white;
   border-radius: 9px;
   margin-bottom: 1rem;
@@ -58,9 +58,9 @@ ul li {
 @media (min-width: 800px) {
   .Experience {
     display: flex;
-    background: black;
-    height: 900px;
-    padding-bottom: 5%;
+    background: #313131;
+    height: 1000px;
+    padding-bottom: 4%;
     flex-direction: column;
   }
 
@@ -69,7 +69,7 @@ ul li {
     width: 90%;
     padding-right: 5%;
     font-size: 20px;
-    padding-bottom: 3%;
+    
   }
 
   .Experience .List ul {
@@ -84,12 +84,13 @@ ul li {
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 8%;
     flex-direction: row;
   }
 
   .Experience .Container .List {
     flex-basis: 100%;
-    background-color: black;
+    background-color: #525252;
     box-shadow: 0 0 4px 4px white;
     border-radius: 9px;
     margin-bottom: 3px;
